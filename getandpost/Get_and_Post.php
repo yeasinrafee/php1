@@ -45,15 +45,15 @@
   </div>
 </nav>
 
-<?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $email = $_POST['email'];
-    $password = $_POST['pass'];
-    echo '<div class="alert alert-success" role="alert">
-    <strong>Success!</strong> Your email: ' . $email . ' and password: ' . $password . '
-  </div>';
-}
-?>
+ <?php
+// if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+//     $email = $_POST['email'];
+//     $password = $_POST['pass'];
+//     echo '<div class="alert alert-success" role="alert">
+//     <strong>Success!</strong> Your email: ' . $email . ' and password: ' . $password . '
+//   </div>';
+// }
+?> 
 
 <div class="container mt-3">
     <h2>Please Enter your email and password</h2>
